@@ -40,5 +40,21 @@ namespace CashierApplication
             items.setPayment(Convert.ToDouble(textBox5.Text));
             Change.Text = items.getChange().ToString();
         }
+
+        private void frmPurchaseDiscountedItem_Load(object sender, EventArgs e)
+        {
+
+        }
+        private void logToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLoginAccount frmLoginAccount = new frmLoginAccount();
+            frmLoginAccount.Show();
+            this.Hide();
+        }
+
+        private void exitApplicationToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+           
+        }
     }
 }
